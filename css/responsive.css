@@ -1,0 +1,108 @@
+@media all and (max-width: 800px) {
+    .nav-bar a{
+        font-size: 9px;
+    }
+    
+    #ourOffer p{
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    #fullMenuTxt p{
+        margin-top: 40px;
+        margin-left: 5%;
+    }
+    
+    .contentGrid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contentGrid-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #grid2{
+        margin-left: 0px;
+    }
+
+    #grid4{
+        margin-right: 40px;
+    }
+
+    .offer-detail{
+        width: 300px;
+        align-items: center;
+    }
+
+    #grid1, #grid2, #grid3, #grid4{
+        width: 100%;
+    }
+
+    #grid1 p, #grid2 p, #grid3 p, #grid4 p{
+        width: 100%;
+    }
+
+    #MenuGrid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #gridOne, #gridTwo{
+        margin-bottom: 90px;
+    }
+
+    #Tenderloin p, #Sirloin p, #Wagyu p{
+        font-size: 15px;
+    }
+
+    #Tenderloinp p, #Sirloinp p, #Wagyup p{
+        font-size: 12px;
+    }
+
+    .content-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact-us{
+        margin-right: 0px;
+    }
+
+    .menu-content{
+        margin-bottom: 20px;
+    }
+
+    .menu-img{
+        display: flex;
+        align-items: center;
+    }
+
+    .promo-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .promo-div{
+        margin-bottom: 20px;
+    }
+
+    .promo-div-1{
+        margin-bottom: 40px;
+    }
+
+    .promo-div-3{
+        margin-bottom: 40px;
+    }
+
+    .promo-img{
+        display: flex;
+        align-items: center;
+    }
+}

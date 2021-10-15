@@ -1,0 +1,198 @@
+#panel, #grid1 {
+  padding: 5px;
+  text-align: center;
+  background: #9aada7;
+  /* border: solid 1px #c3c3c3; */
+}
+
+#panel {
+  width: 450px;
+  height: 300px;
+  padding: 10px;
+  display: none;
+}
+
+/* #panel img{
+    width: 100%;
+    height: 153.5px
+} */
+
+#panel2, #grid2 {
+  padding: 5px;
+  text-align: center;
+  background: #9aada7;
+  /* border: solid 1px #c3c3c3; */
+  }
+  
+#panel2 {
+  width: 450px;
+  height: 300px;
+  padding: 10px;
+  display: none;
+  margin-left: 35px;
+}
+  
+/* #panel2 img{
+    width: 100%;
+    height: 153.5px
+} */
+
+#panel3, #grid3 {
+  padding: 5px;
+  text-align: center;
+  background: #9aada7;
+  /* border: solid 1px #c3c3c3; */
+  }
+  
+#panel3 {
+  width: 450px;
+  height: 300px;
+  padding: 10px;
+  display: none;
+}
+  
+/* #panel3 img{
+    width: 100%;
+    height: 153.5px;
+} */
+
+#panel4, #grid4 {
+  padding: 5px;
+  text-align: center;
+  background: #9aada7;
+  margin-left: 35px;
+  /* border: solid 1px #c3c3c3; */
+  }
+  
+#panel4 {
+  width: 450px;
+  height: 300px;
+  padding: 10px;
+  display: none;
+  margin-left: 35px;
+}
+  
+/* #panel4 img{
+    width: 100%;
+    height: 153.5px;
+} */
+
+#prev, #next{
+  border: none;
+  padding: 1.5% 1,5%;
+  background: #394e47;
+  color: white;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.slider{
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.slide{
+  width: 450px;
+  height: 300px;
+}
+
+.slider div.slides{
+  position: relative;
+}
+
+.slider div.slides div.slide{
+  float: left;
+}
+
+#prev2, #next2{
+  border: none;
+  padding: 1.5% 1,5%;
+  background: #394e47;
+  color: white;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.slider2{
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.slide2{
+  width: 450px;
+  height: 300px;
+}
+
+.slider2 div.slides2{
+  position: relative;
+}
+
+.slider2 div.slides2 div.slide2{
+  float: left;
+}
+
+#prev3, #next3{
+  border: none;
+  padding: 1.5% 1,5%;
+  background: #394e47;
+  color: white;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.slider3{
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.slide3{
+  width: 450px;
+  height: 300px;
+}
+
+.slider3 div.slides3{
+  position: relative;
+}
+
+.slider3 div.slides3 div.slide3{
+  float: left;
+}
+
+#prev4, #next4{
+  border: none;
+  padding: 1.5% 1,5%;
+  background: #394e47;
+  color: white;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.slider4{
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.slide4{
+  width: 450px;
+  height: 300px;
+}
+
+.slider4 div.slides4{
+  position: relative;
+}
+
+.slider4 div.slides4 div.slide4{
+  float: left;
+}

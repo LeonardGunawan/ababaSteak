@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: MVC;
+    box-sizing: border-box;
+    color: #f2f2f2;
+}
+
+@font-face {
+    font-family: 'MVC';
+    src: url(../font/MyriadVariableConcept-Roman.otf);
+    font-style: normal;
+    font-weight: bolder;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+ }
+
+
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: #e8decf;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+.container-header{
+    display: flex;
+    align-items:center;
+}
+
+.logo{
+    margin: 5px 20px;
+    margin-top: 8px;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+}
+
+.nav-bar{
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0px 15px;
+}
+
+.nav-bar a{
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 5px 10px;
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+}
+
+.nav-bar a:hover {
+	border-bottom: 3px solid rgb(138, 4, 4);
+}
+  
+.nav-bar a.active {	
+	border-bottom: 3px solid rgb(138, 4, 4);
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    background-image: url(../about-us-asset/ranch.png);
+    height: 35%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner h1{
+    color: #4e3704;
+    margin-bottom: 10px;
+}
+
+.banner p{
+    color: #000000;
+    letter-spacing: -1px;
+}
+
+.container-founder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+}
+
+.founder-title h2{
+    color: #4e3704;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.founder-images{
+    display: flex;
+}
+
+.founder-detail{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.founder-desc h3{
+    color: #4e3704;
+}
+
+.container-content{
+    padding: 40px 0;
+}
+
+.history{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.history-img{
+    background-image: url(../about-us-asset/1980SteakHouse.jpg);
+    width: 300px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.history-img:hover{
+    background-image: url(../about-us-asset/1980SteakHouseHover.jpg);
+    transition: 1s;
+}
+
+.history-detail{
+    padding-top: 40px;
+    margin-left: 40px;
+}
+
+.history-detail h3{
+    color: #a78555;
+}
+
+.history-detail-desc{
+    margin-top: 20px;
+}
+
+.history-detail-desc p{
+    color: black;
+}
+
+.history-img-2{
+    background-image: url(../about-us-asset/1990sSteakHouse.png);
+    width: 300px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.history-img-2:hover{
+    background-image: url(../about-us-asset/1990SteakHouseHover.jpg);
+    transition: 1s;
+}
+
+.history-detail-2{
+    padding-top: 40px;
+    margin-right: 40px;
+}
+
+.history-detail-2 h3{
+    color: #a78555;
+}
+
+.history-detail-desc-2{
+    margin-top: 20px;
+}
+
+.history-detail-desc-2 p{
+    color: black;
+}
+
+.history-img-3{
+    background-image: url(../about-us-asset/steakImg.jpg);
+    width: 300px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.history-img-3:hover{
+    background-image: url(../about-us-asset/steakImgHover.jpg);
+    transition: 1s;
+}
+
+.history-img-4{
+    background-image: url(../about-us-asset/steakImg2.png);
+    width: 300px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.history-img-4:hover{
+    background-image: url(../about-us-asset/steakImg2Hover.jpg);
+    transition: 1s;
+}
+
+.history-img-5{
+    background-image: url(../about-us-asset/newResto.jpg);
+    width: 300px;
+    height: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.history-img-5:hover{
+    background-image: url(../about-us-asset/newRestoHover.jpg);
+    transition: 1s;
+}
+
+footer{
+    background-color: #e8decf;
+    width: 100%;
+}
+
+.container-footer{
+    padding: 20px;
+}
+
+.footer-title h2{
+    color:rgb(138, 4, 4); 
+}
+
+.footer-title h3{
+    color: #a78555;
+    font-size: medium;
+}
+
+.contact-us{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-us-title{
+    margin-right: 40px;
+    font-size: large;
+}
+
+.contact-us-title h2{
+    color: black;
+}
+
+.socmed{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.socmed-img{
+    padding: 0 7px;
+}
+
+.socmed-img img{
+    padding-top: 5px;
+}
+
+.socmed-img img{
+    width: 30px;
+    height: auto;
+}
+
+.socmed a{
+    text-decoration: none;
+    color: #a78555;
+    font-weight: bold;
+}
+
